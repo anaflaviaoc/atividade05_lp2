@@ -1,0 +1,42 @@
+/*
+
+Ágatha Lemos Batista - 2115200001 (athy2003)
+Ana Flávia Oliveira Candido - 2015090057 (anaflaviaoc)
+Carlos Flávio de Lima Maia - 1915120007 (cmaia7)
+Carlos Rodrigo Santos da Silva - 2015090002 (zCarlosRodrigo)
+Cassiel Stavros de Melo Dutra - 2115310005 (cassiel-st4v0rs)
+Emilly Gabrielly de Freitas Lima - 2115200061 (gaby1316)
+
+*/
+
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+        int n1, n2;
+
+        printf("Digite um número: ");
+        scanf("%d", &n1);
+
+        printf("Digite outro número: ");
+        scanf("%d", &n2);
+
+        if(n1<n2)
+        {
+
+		while(n1<n2
+		n1++;
+                printf("%d\n", n1);
+        }
+
+	else
+	{
+
+		n2++;
+		printf("%d\n", n2);
+
+	}
+
+        return 0;
+
+}

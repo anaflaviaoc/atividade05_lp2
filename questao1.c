@@ -13,21 +13,16 @@ Emilly Gabrielly de Freitas Lima - 2115200061 (gaby1316)
 
 int main (int argc, char** argv)
 {
-
 	int i = 1, maior = 0, num;
 
 	do
 	{
-
 		printf("Digite o %d número: ", i++);
 		scanf("%d", &num);
 
-
 		if(num>maior)
 		{
-
 			maior=num;
-
 		}
 
 	}
@@ -36,5 +31,4 @@ int main (int argc, char** argv)
 	printf("O maior número é %d\n", maior);
 
 	return 0;
-
 }
